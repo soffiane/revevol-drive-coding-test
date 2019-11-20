@@ -1,0 +1,711 @@
+
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__input {
+    background: #F0EFEF;
+    width: 90%;
+    height: 30px;
+    padding: 10px 38px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 280px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+.react-autosuggest__suggestion-match {
+    color: red;
+    font-weight: bold;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.box {
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.MuiTableCell-root-73 {
+    padding: 4px 15px 4px 0px !important;
+}
+
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+
+.container-1 {
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active {
+    outline: none;
+    background: lightgrey;
+}
+
+.container-1 input#search {
+    width: 100%;
+    height: 50px;
+    background: #F0EFEF;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+
+.container-1 .icon {
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.container-1 .iconArrow {
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    z-index: 1;
+    color: #4f5b66;
+    right: 4%;
+}
+
+.iconArrow:hover {
+    cursor: pointer;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+
+.container-1 input#search::-moz-placeholder { /* Firefox 19+ */
+    color: #65737e;
+}
+
+.container-1 input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+
+
+.titleLabels {
+    text-align: center;
+    color: dimgrey;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.marginBottomEmailSubject {
+    margin-bottom: 10px;
+}
+
+.emailSelection {
+    text-align: start;
+    word-wrap: break-word;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.attachment {
+    text-align: center;
+    background-color: #e0e0e0;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    margin-right: 5px;
+    width: 60px;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 65px;
+    bottom: 65px;
+    width: 100%;
+}
+
+.container > div {
+    font-size: 12px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.labels {
+    width: 30%;
+}
+
+.messages {
+    width: 100%;
+}
+
+.regular-checkbox {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.regular-checkbox:active, .regular-checkbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.regular-checkbox:checked {
+    background-color: #e9ecee;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+    color: #99a1a7;
+}
+
+.regular-checkbox:checked:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    color: #99a1a7;
+}
+
+.big-checkbox {
+    padding: 9px;
+}
+
+.big-checkbox:checked:after {
+    font-size: 28px;
+    left: 6px;
+}
+
+.brand-logo {
+    width: 200px;
+}
+
+.brand-logo > img {
+    height: 65px;
+    margin-bottom: -5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bar-header {
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.bar-info-right {
+    display: grid;
+    width: 200px;
+    justify-content: flex-end;
+}
+
+.bar-info-right > span {
+    font-size: 14px;
+    margin: auto;
+    color: white;
+    padding: 2px;
+}
+
+.logout {
+    font-size: 14px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.lang-flag > img {
+    width: 40px;
+    float: right;
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-background {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-background > img {
+    max-width: 100%;
+}
+
+.language-image {
+    padding: 10px;
+}
+
+.language-image > img {
+    width: 100%;
+    height: 100%;
+}
+
+.paper {
+    width: 100%;
+}
+
+.paperEmailSelection {
+    width: 70%;
+    margin: auto;
+}
+
+.language-paper {
+    margin: auto;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 15% !important;
+}
+
+.language-paper:hover {
+    background-color: #efefef;
+}
+
+.page-description {
+    width: 100%;
+    text-align: center;
+}
+
+.spinner {
+    background-color: #e8e8e8bd;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner > div {
+    margin-top: -10%;
+}
+
+.page-loader > div {
+    top: 65px;
+}
+
+.page-container {
+    width: 100%;
+    height: 100%;
+    min-height: calc(100% - 90px - 45px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.page-paper {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.products-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.quiz-container {
+    display: grid;
+    justify-items: center;
+}
+
+.quiz-container > button {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.products > img {
+    width: 120px;
+    margin: 10px;
+}
+
+.check-in-image > img {
+    width: 300px;
+    height: 300px;
+}
+
+.end-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-validated-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-validated-container > h2 {
+    text-align: center;
+}
+
+.end-container > p {
+    color: #2196f3;
+}
+
+.errorContainer {
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.pin-code-touch {
+    text-align: center;
+    border-radius: 50% !important;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pin-code-touch:hover {
+    background-color: #efefef;
+}
+
+.pin-code-container {
+    width: 50%;
+}
+
+.pin-input {
+    pointer-events: none;
+}
+
+.pin-input > div > input {
+    text-align: center;
+}
+
+.label {
+    text-align: center;
+}
+
+.activitiesContainer {
+    height: 450px;
+}
+
+.activitiesContainer > button {
+    margin: 10px 10px 10px 10px;
+}
+
+
+/** VEOLIA SPECIFIC CSS **/
+.warning-signin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.sign-in-label {
+    font-size: 15px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+.signin-button:hover {
+    cursor: pointer;
+}
+
+.signin-button {
+    margin: 0 auto;
+    padding: 15px;
+    display: inline-block;
+    background: #f1f1f1;
+    color: #444;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+}
+
+.signin-button > img {
+    background: transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: Roboto, sans-serif;
+}
+
+.div-button {
+    width: 50%;
+}
+
+.bottom-add {
+    float: right;
+}
+
+.jobs-container {
+    height: 100%;
+}
+
+.create-library-button {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin: 10px;
+}
+
+.loader {
+    display: flex;
+    margin-left: 47%;
+}
+
+.container-grid {
+    display: grid;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+}
+
+.container-grid > div {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.bottom-padding {
+    bottom: 70px
+}
+
+.title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.documentTypesSelector {
+    width: 300px;
+    float: right;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.snackbar-error > div {
+    background-color: #d32f2f;
+}
+
+.snackbar-success > div {
+    background-color: #43a047;
+}
+
+.homeButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    align-items: center
+}
+
+.fab {
+    margin: 5px;
+}
+
+/************** Query Help ***************/
+
+.cc {
+    word-wrap: break-word;
+    width: 70%;
+    margin-top: 80px;
+}
+
+.cc table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.cc .nice-table td {
+    background-color: #f1f3f4;
+    border-color: #dadce0;
+}
+
+.cc .nice-table th, .cc .nice-table td {
+    border: .0625rem solid #dadce0;
+    padding: .25rem .75rem;
+}
+
+.cc td {
+    vertical-align: top;
+}
+
+.cc th {
+    color: #80868b;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: baseline;
+}
+
+.cc th {
+    color: #202124;
+}
+
+.cc .nice-table th {
+    background-color: #e8eaed;
+}
+
+table, caption {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+}

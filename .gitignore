@@ -1,0 +1,13 @@
+.idea
+*.iml
+**/target
+webapp/src/main/react-app/node_modules/
+webapp/src/main/react-app/build
+webapp/src/main/react-app/node/
+**lock**
+**.pdf
+**.exe
+src/main/react-app/build/
+src/main/react-app/node/
+src/main/react-app/node_modules/
+src/main/react-app/yarn-error.log

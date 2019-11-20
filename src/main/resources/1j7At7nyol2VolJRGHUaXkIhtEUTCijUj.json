@@ -1,0 +1,27 @@
+{
+  "kind": "drive#file",
+  "id": "1j7At7nyol2VolJRGHUaXkIhtEUTCijUj",
+  "name": "Image.png",
+  "mimeType": "image/png",
+  "starred": false,
+  "owners": [
+    {
+      "kind": "drive#user",
+      "displayName": "User0 SuperadminDoNotRemove",
+      "me": true,
+      "permissionId": "06945424265659817920",
+      "emailAddress": "user.zero@dev.revevolcloud.com"
+    }
+  ],
+  "permissions": [
+    {
+      "kind": "drive#permission",
+      "id": "06945424265659817920",
+      "type": "user",
+      "emailAddress": "user.zero@dev.revevolcloud.com",
+      "role": "owner",
+      "displayName": "User0 SuperadminDoNotRemove",
+      "deleted": false
+    }
+  ]
+}
