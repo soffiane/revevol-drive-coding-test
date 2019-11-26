@@ -30,7 +30,17 @@ class ListFiles extends React.Component {
        view(fileId);
     };
 
-    search = (value) => console.log("Search a file " + value);
+    search = (value) => {
+        if(value !== ''){
+            api.filter("root",value).then(response => {
+                                 this.setState({files: response.files})
+                             });
+         } else {
+         api.list("root").then(response => {
+                     this.setState({files: response.files})
+                 });
+         }
+        };
 
     render() {
         const {files, loader} = this.state;

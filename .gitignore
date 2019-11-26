@@ -11,3 +11,7 @@ src/main/react-app/build/
 src/main/react-app/node/
 src/main/react-app/node_modules/
 src/main/react-app/yarn-error.log
+.classpath
+.factorypath
+.project
+.settings/
